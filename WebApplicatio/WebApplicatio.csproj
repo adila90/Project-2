@@ -130,6 +130,7 @@
     <Content Include="js\wow.min.js" />
     <Content Include="output.aspx" />
     <Content Include="shuwen.aspx" />
+    <Content Include="shuwen1.aspx" />
     <Content Include="Web.config" />
     <Content Include="WebForm1.aspx" />
     <Content Include="WebForm2.aspx" />
@@ -161,6 +162,13 @@
     </Compile>
     <Compile Include="shuwen.aspx.designer.cs">
       <DependentUpon>shuwen.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="shuwen1.aspx.cs">
+      <DependentUpon>shuwen1.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="shuwen1.aspx.designer.cs">
+      <DependentUpon>shuwen1.aspx</DependentUpon>
     </Compile>
     <Compile Include="Site1.Master.cs">
       <DependentUpon>Site1.Master</DependentUpon>
